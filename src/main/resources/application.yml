@@ -1,6 +1,5 @@
 server:
   port: 8080
-#  context-path: /api
 spring:
   http:
     multipart:
@@ -20,6 +19,5 @@ logging:
         web: INFO
 
 firebase:
-  database-url: https://fir-springcodelab-2d461.firebaseio.com/
-  enabled: true
+  database-url: <put here your database url>
   path: messages

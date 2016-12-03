@@ -26,7 +26,6 @@ public class FirebaseConfig {
 
     @Bean
     public FirebaseApp provideFirebaseOptions() throws IOException {
-
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setServiceAccount(gservicesConfig.getInputStream())
                 .setDatabaseUrl(databaseUrl)
