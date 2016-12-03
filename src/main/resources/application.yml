@@ -1,0 +1,25 @@
+server:
+  port: 8080
+#  context-path: /api
+spring:
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  tomcat:
+    accesslog:
+      directory: logs
+      enabled: true
+      pattern: common
+      prefix: access_log
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: INFO
+
+firebase:
+  database-url: https://fir-springcodelab-2d461.firebaseio.com/
+  enabled: true
+  path: messages
