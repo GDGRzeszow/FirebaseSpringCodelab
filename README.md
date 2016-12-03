@@ -1,3 +1,5 @@
+![GDG Christmas Codelabs](/screens/codelabs_christmas.png?raw=true "GDG Rzeszów Christmas Codelabs")
+
 #Firebase Admin with Spring codelabs
 Welcome to Firebase Admin with Spring codelabs! 
 In this codelab, you'll learn how to use the Firebase with server side code
@@ -17,7 +19,7 @@ It will allow us to do all operations at database.
 To do it login into your Firebase Console and go to your "Project Settings". 
 Next open "Service Accounts" and generate new private key. 
 
-![Alt text](/screens/priv_key.jpg?raw=true "Private key generation")
+![Private key generation](/screens/priv_key.jpg?raw=true "Private key generation")
 
 You can rename downloaded file to "google-services.json" and replace 
 file in _resources_ folder or copy content and paste into that file.
@@ -70,5 +72,5 @@ text = text.replaceAll(pattern.pattern(), "***");
 Now run your android app and try to type some censored word.
 It will be changed to stars! 
 
-![Alt text](/screens/app_scr.jpg?raw=true "Private key generation")
+![Result of codelabs](/screens/app_scr.jpg?raw=true "Result of codelabs")
 

@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class CensorServiceImpl implements CensorService {
 
     final List<String> badWords =
-            Arrays.asList("veryBadWord","anotherOne"); //TODO: You can insert here strings to censor
+            Arrays.asList("dupa", "cholera");
 
     private Pattern pattern;
 
@@ -24,9 +24,7 @@ public class CensorServiceImpl implements CensorService {
 
     @Override
     public String censorWord(String text) {
-        /*
-            TODO: Here you can do something with text :)
-        */
+        text = text.replaceAll(pattern.pattern(), "***");
         return text;
     }
 }
